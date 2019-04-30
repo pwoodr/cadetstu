@@ -25,6 +25,10 @@ pageHeader("Menu","logo1.jpg");
 </head>
 
 <body>
+<p>under construction</p>
+<br>
+<h1>instructions -- can be commented or deleted later</h1>
+<p>when admin logs in plan on having fields where user can edit their own data</p>
 </body>
 
 

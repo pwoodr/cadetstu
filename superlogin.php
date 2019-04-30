@@ -27,7 +27,6 @@ if(isset($_SESSION['admin']))
 EOT;
 }
         
-    //pageHeader("Login","logo1.png");
 ?>
     <div class="container">
     <form action="./superloginhandler.php" method="POST">

@@ -22,7 +22,7 @@
      <div class="container">
      <form action="./edit.php" method="post">
 
-    <label class="col-2"> Get user name</label>
+    <label class="col-2">Get user name</label>
             <input class="col-3" list="listNames"  id="loginNameJs" onkeyup="findPartName()" name="loginName">
             <datalist id="listNames">
               

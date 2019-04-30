@@ -10,6 +10,8 @@ $query = "SELECT UserLoginName, UserPW FROM tblusers WHERE userLoginName = \"$us
 $result=$conn->query($query);
 if(!$result) die("Error in query");
 
+
+
 $rows=$result->num_rows;
 if($rows!=0){
 	session_start();

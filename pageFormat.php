@@ -33,9 +33,9 @@
       }
     </style>
   </head>
-  <body>
-    <?php
-    
+  <body><?php
+
+    //call this function to implement navbar on a page
     function pageHeader($title,$img)
     {
        echo<<<EOT
@@ -44,12 +44,12 @@
           <h2 class="mt-2">$title</h2>
           <nav class="navbar ">
           <!-- Navbar content -->
-              <a class="nav-item nav-link active" href="menu.php">Home <span class="sr-only">(current)</span></a>
-               <a class="nav-item nav-link" href="superlogin.php">Login</a>
-               <a class="nav-item nav-link" href="edit.php">Edit User</a>
-                <a class="nav-item nav-link" href="addUser.php">Add User</a>
-               <a class="nav-item nav-link" href="logout.php">Close Form</a>
-              <a class="nav-item nav-link disabled" href="#">More</a>
+            <a class="nav-item nav-link active" href="menu.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="superlogin.php">Login</a>
+            <a class="nav-item nav-link" href="edit.php">Edit User</a>
+            <a class="nav-item nav-link" href="addUser.php">Add User</a>
+            <a class="nav-item nav-link" href="logout.php">Close Form</a>
+            <a class="nav-item nav-link disabled" href="#">More</a>
             </nav>
         </div>
         <hr class="style1"/>
