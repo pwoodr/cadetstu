@@ -5,12 +5,12 @@ $conn=connectDB();
 
 
 //these values are posted from adduser.php
-$username=$_POST['username'];
-$pass=$_POST['password'];
-$identity=$_POST['id'];
-$issuperuser=isset($_POST['suser']) && $_POST['suser'] ? "1": "0";
-$privilege=$_POST['securityName'];
-$siteid=$_POST['fkSiteID'];
+$username=$_POST['userLoginName'];
+$pass=$_POST['userPassword'];
+$identity=$_POST['identity'];
+$issuperuser=$_POST['superUser'];
+$privilege=$_POST['privilege'];
+$siteid=$_POST['site'];
 
 
 //sql query that inserts a new user
