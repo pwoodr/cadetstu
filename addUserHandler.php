@@ -10,11 +10,10 @@ $issuperuser=isset($_POST['suser']) && $_POST['suser'] ? "1": "0";
 $privilege=$_POST['securityName'];
 $siteid=$_POST['fkSiteID'];
 
-$query="INSERT tblusers VALUES Privilege=\"$privilege\", fkSiteID=\"$siteid\" WHERE UserLoginName=\"$username\" ";
+$query="INSERT tblusers VALUES(\"$username\",\"$pass\",\"$identity\",\"$privilege\",\"$issuperuser\", \"$siteid\" ";
 
 $result=$conn->query($query);
 if(!result) die("Fatal error from Query");
 else
     header("Location: edit.php?msg=\"User added!\" ");
-
 ?>
