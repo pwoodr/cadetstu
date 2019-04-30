@@ -48,6 +48,7 @@
             <a class="nav-item nav-link" href="superlogin.php">Login</a>
             <a class="nav-item nav-link" href="edit.php">Edit User</a>
             <a class="nav-item nav-link" href="addUser.php">Add User</a>
+            <a class="nav-item nav-link" href="deleteform.php">Delete User</a>
             <a class="nav-item nav-link" href="logout.php">Close Form</a>
             <a class="nav-item nav-link disabled" href="#">More</a>
             </nav>

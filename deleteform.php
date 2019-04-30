@@ -1,6 +1,8 @@
 <?php
 ob_start();
 session_start();
+require_once "pageFormat.php";
+pageHeader("Delete User", "logo1.jpg");
 if(!isset($_SESSION['admin']))
 {
   header("Location: superlogin.php");
