@@ -1,6 +1,8 @@
 <?php
 ob_start();
 session_start();
+require_once "pageFormat.php";
+pageHeader("Login","logo1.jpg");
 if(isset($_SESSION['admin']))
 {
   header("Location: menu.php");
@@ -13,8 +15,7 @@ if(isset($_SESSION['admin']))
 <head>
 	<title>Login</title>
 </head>
-<body>
- <?php
+<body><?php
     if(isset($_GET['msg']))
 {
   $msg=$_GET['msg'];
@@ -27,7 +28,7 @@ EOT;
 }
         
     //pageHeader("Login","logo1.png");
-    ?>
+?>
     <div class="container">
     <form action="./superloginhandler.php" method="POST">
       User: <br>
